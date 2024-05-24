@@ -7,6 +7,8 @@ import Card from "./Components/Card";
 import { cards } from "./utils/cards";
 import FullPage from "./Components/FullPage";
 import TextSection from "./TextSection";
+import { motion } from "framer-motion";
+import Footer from "./Components/Footer";
 export default function Home() {
   return (
     <>
@@ -45,6 +47,21 @@ export default function Home() {
         <SectionLayout>
           <TextSection />
         </SectionLayout>
+        <SectionLayout>
+          <div className="video">
+            <iframe
+              src="https://www.youtube.com/embed/OuaUjkZhfqQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </SectionLayout>
+        <SectionLayout>
+          <TextSection />
+        </SectionLayout>
+
+        <Footer />
       </MainStyled>
     </>
   );
