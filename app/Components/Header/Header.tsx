@@ -8,6 +8,7 @@ import styled from "styled-components";
 import { FaBookReader } from "react-icons/fa";
 import { Abril_Fatface } from "next/font/google";
 import { GiCrocSword } from "react-icons/gi";
+import hover3d from "../../utils/hover";
 
 const abril = Abril_Fatface({
   subsets: ["latin"],
@@ -15,8 +16,22 @@ const abril = Abril_Fatface({
 });
 
 function Header() {
+  const hero = useRef<HTMLDivElement>(null);
+
+  const hoverHero = hover3d(hero, {
+    x: 30,
+    y: -40,
+    z: 30,
+  });
+
+  const imageHover = hover3d(hero, {
+    x: 20,
+    y: -5,
+    z: 11,
+  });
+
   return (
-    <HeaderStyled>
+    <HeaderStyled ref={hero}>
       <nav>
         <div className="logo">
           <Image src={logo} alt="logo" width={46} />
@@ -60,12 +75,20 @@ function Header() {
           </div>
         </div>
         <div className="image-content">
-          <div className="image">
+          <div
+            className="image"
+            style={{
+              transform: hoverHero.transform,
+            }}
+          >
             <Image
               src="/images/cover.png"
               width={600}
               height={600}
               alt="hero"
+              style={{
+                transform: imageHover.transform,
+              }}
             />
           </div>
         </div>
