@@ -21,16 +21,13 @@ function Footer() {
         <div className="logo-con">
           <div className="logo">
             <Image src={logo} width={36} alt="logo" />
-            <h2>Logo</h2>
+            <h2>Elden Ring</h2>
           </div>
           <div className="input">
             <input type="text" placeholder="Subscribe here..." />
             <button>&#8594;</button>
           </div>
-          <p>
-            Create, Sell And Collect Truly Rare Digital Artworks. Powered By
-            Blockchain Technology.
-          </p>
+          <p>Ready yourself tarnish and relinquish your humanity.</p>
           <div className="socials">
             <AiFillGithub />
             <AiFillTwitterCircle />

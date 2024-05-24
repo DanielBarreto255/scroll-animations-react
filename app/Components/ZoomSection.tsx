@@ -52,7 +52,7 @@ function ZoomSection() {
         />
 
         <Image
-          src="/images/arm2.jpg"
+          src="/images/marika.png"
           alt="bulb tree"
           className="monkey"
           width={500}
@@ -66,7 +66,7 @@ function ZoomSection() {
         />
 
         <Image
-          src="/images/arm.jpg"
+          src="/images/soldier.png"
           alt="bulb tree"
           className="smoke"
           width={500}

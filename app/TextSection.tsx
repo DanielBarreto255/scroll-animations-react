@@ -41,27 +41,23 @@ const TextWrapper = ({ children }: Props) => {
 function TextSection() {
   return (
     <TextSectionStyled>
+      <TextWrapper>Tarnished, heed the call to the Lands Between</TextWrapper>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        , a realm where the echoes of ancient legends resonate through the mist.
       </TextWrapper>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        Thou art beckoned to unravel the mysteries of this forsaken land,
       </TextWrapper>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        to challenge the demigods and claim the power of the Elden Ring.
       </TextWrapper>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        Through trials unnumbered and adversaries unyielding,
       </TextWrapper>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+        thy journey shall etch thy name in the annals of history.
       </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
+      <TextWrapper>Embrace thy destiny!</TextWrapper>
     </TextSectionStyled>
   );
 }

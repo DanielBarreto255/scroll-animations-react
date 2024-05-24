@@ -45,23 +45,23 @@ const footer = [
       title: "Useful Links",
       links: [
         {
-          name: "All NFTs",
+          name: "Wiki",
           link: "/nfts",
         },
         {
-          name: "How to Sell",
+          name: "Guides",
           link: "/sell",
         },
         {
-          name: "Create",
+          name: "Youtube",
           link: "/create",
         },
         {
-          name: "Explore",
+          name: "Forums",
           link: "/explore",
         },
         {
-          name: "Marketplace",
+          name: "Walkthroughs",
           link: "/marketplace",
         },
         {
